@@ -28,7 +28,7 @@
     <!-- Graphene Apps -->
     <remote name="grapgene"
         fetch="https://github.com/GrapheneOS/" />
-    <project path="external/Apps" name="platform_external_Apps"
+    <project path="external/Apps" name="platform_external_AppStore"
         remote="grapgene" revision="14" />
 
     <!-- Kprofiles -->
