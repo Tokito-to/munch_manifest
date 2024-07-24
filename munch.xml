@@ -19,7 +19,7 @@
     <project path="kernel/xiaomi/sm8250" name="nexus_kernel_xiaomi_sm8250"
         remote="Toki-hub" revision="voltage-14" />
 
-    <!-- Hardware -->
+    <!-- Lineage -->
     <remote name="lineage"
         fetch="https://github.com/LineageOS/" />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi"
@@ -40,4 +40,7 @@
     <!-- Misc -->
     <project path="packages/apps/Prebuilts" name="packages_apps_Prebuilts"
         remote="Toki-hub" revision="main" />
+
+    <!-- Remove -->
+    <remove-project name="vendor_voltage-priv_keys" />
 </manifest>
