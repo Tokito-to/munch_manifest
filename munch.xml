@@ -3,9 +3,9 @@
 <manifest>
     <!-- Remotes -->
     <remote name="Toki-hub"
-        fetch="https://github.com/Ivy-Tokito/" />
+        fetch="https://github.com/Kurumi-Tokito/" />
     <remote name="Toki-lab"
-        fetch="https://gitlab.com/Ivy-Tokito/" />
+        fetch="https://gitlab.com/Kurumi-Tokito/" />
 
     <!-- Device -->
     <project path="device/xiaomi/munch" name="device_xiaomi_munch"
