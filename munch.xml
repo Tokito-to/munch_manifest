@@ -9,27 +9,27 @@
 
     <!-- Device -->
     <project path="device/xiaomi/munch" name="device_xiaomi_munch"
-        remote="Toki-hub" revision="voltage-14" />
+        remote="Toki-hub" revision="voltage-15" />
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/munch" name="vendor_xiaomi_munch"
-        remote="Toki-lab" revision="voltage-14" />
+        remote="Toki-lab" revision="voltage-15" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8250" name="nexus_kernel_xiaomi_sm8250"
-        remote="Toki-hub" revision="voltage-14" />
+    <project path="kernel/xiaomi/sm8250" name="nova_kernel_xiaomi_sm8250"
+        remote="Toki-hub" revision="voltage-15" />
 
     <!-- Lineage -->
     <remote name="lineage"
         fetch="https://github.com/LineageOS/" />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi"
-        remote="lineage" revision="lineage-21" />
+        remote="lineage" revision="lineage-22.0" />
 
     <!-- Graphene Apps -->
     <remote name="grapgene"
         fetch="https://github.com/GrapheneOS/" />
     <project path="external/AppStore" name="platform_external_AppStore"
-        remote="grapgene" revision="14" />
+        remote="grapgene" revision="15" />
 
     <!-- Kprofiles -->
     <remote name="kprofiles"
