@@ -17,19 +17,20 @@
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm8250" name="nova_kernel_xiaomi_sm8250"
-        remote="Toki-hub" revision="voltage-15" />
+        remote="Toki-hub" revision="voltage-15-qpr2" />
 
-    <!-- Lineage -->
+    <!-- Lineage
     <remote name="lineage"
         fetch="https://github.com/LineageOS/" />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi"
         remote="lineage" revision="lineage-22.0" />
-
+	-->
+		
     <!-- Graphene Apps -->
     <remote name="grapgene"
         fetch="https://github.com/GrapheneOS/" />
     <project path="external/AppStore" name="platform_external_AppStore"
-        remote="grapgene" revision="15" />
+        remote="grapgene" revision="15-qpr2" />
 
     <!-- Kprofiles -->
     <remote name="kprofiles"
